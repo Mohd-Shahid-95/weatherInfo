@@ -1,7 +1,6 @@
 import Search from "./search";
 import InfoBox from "./infoBox";
 import { useState } from "react";
-import { set } from "mongoose";
 function WeatherApp(){
     let [weatherInfo, SetWeatherInfo]=useState({
         city:"Delhi",
