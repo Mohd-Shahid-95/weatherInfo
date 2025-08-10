@@ -1,9 +1,0 @@
-.InfoBox{
-margin-left: 25rem;
-};
-@media (max-width: 768px) {
-  .InfoBox {
-    flex-direction: column;
-    align-items: center;
-  }
-}

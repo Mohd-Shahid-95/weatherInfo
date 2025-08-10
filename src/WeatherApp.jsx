@@ -16,7 +16,7 @@ function WeatherApp(){
         }
     return(
         <div>
-            <h3 style={{marginLeft:"25rem"}}>Weather Now</h3>
+            <h3 >Weather Now</h3>
             <Search updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
         </div>
